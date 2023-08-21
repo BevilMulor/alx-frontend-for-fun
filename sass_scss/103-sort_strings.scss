@@ -1,0 +1,15 @@
+/* My style */
+body {
+    .container {
+        color: #3D3D3D;
+    }
+}
+
+/* sorts $list_to_sort and prints the sorted list in debug output */
+
+/* sorts variable and prints to debug output */
+@import '103-sort_list';
+
+@each $name in $list_to_sort {
+    @debug #{$name};
+}

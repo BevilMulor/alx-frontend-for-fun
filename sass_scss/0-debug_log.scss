@@ -1,0 +1,9 @@
+/* My style */
+body {
+    .container {
+        color: #3D3D3D;
+    }
+}
+
+/* prints Hello world in the debug output */
+@debug "Hello world";
