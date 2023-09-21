@@ -1,11 +1,4 @@
-/* My style */
-body {
-    .container {
-        color: #3D3D3D;
-    }
-}
-
-/* import colors from other scss file */
+// Import colors
 @import '10-colors.scss';
 
 .red {

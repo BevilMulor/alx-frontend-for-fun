@@ -1,20 +1,14 @@
-/* My style */
-body {
-    .container {
-        color: #3D3D3D;
-    }
-}
+// using mixin
 
-/* create horizontal margin mixing */ 
-@mixin h-margin($margin) {
-    margin-left: $margin;
-    margin-right: $margin;
+@mixin marginLR($property) {
+    margin-left: $property;
+    margin-right: $property;
 }
 
 body {
-    @include h-margin(10px);
+    @include marginLR(10px)
 }
 
 div {
-    @include h-margin(15px);
+    @include marginLR(15px)
 }

@@ -1,14 +1,9 @@
-/* My style */
-body {
-    .container {
-        color: #3D3D3D;
-    }
-}
+// nested class
 
-/* using more nested declaration */
 body {
-    color: #3D3D3D;
-    .red {
-        color: #FF0000;
+    color: #3d3d3d;
+
+    .red{
+        color: #ff0000;
     }
 }

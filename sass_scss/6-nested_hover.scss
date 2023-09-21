@@ -1,13 +1,9 @@
-/* My style */
-body {
-    .container {
-        color: #3D3D3D;
-    }
-}
+/* Nested hover
+change button color on hover*/
 
-/* change button color on hover*/
 button {
     color: #FF0000;
+
     &:hover {
         color: #00FF00;
     }

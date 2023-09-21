@@ -1,16 +1,9 @@
-/* My style */
-body {
-    .container {
-        color: #3D3D3D;
-    }
-}
+//  loop photos
 
-/* create a class for each name in $list-names and assign background image based on the name */
-
-@import '11-photos.scss';
+@import 'variables';
 
 @each $name in $list-names {
-    .photo-#{$name} {
-        background: image-url("photos/#{$name}.jpg") no-repeat; 
-    }
+  .#{lowercase($name)} {
+    background-image: url('images/#{lowercase($name)}.jpg');
+  }
 }

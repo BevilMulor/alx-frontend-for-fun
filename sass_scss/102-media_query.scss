@@ -1,28 +1,14 @@
-/* My style */
-body {
-    .container {
-        color: #3D3D3D;
-    }
-}
-
-/* Screens */
-
-$large: 960px;
-$medium: 640px;
-$small: 320px;
+/* make declaration according to media size */
 
 h1 {
     font-size: 20px;
-
-    @media screen and (max-width: $large) {        
-       font-size: 18px;
+    @media screen and (max-width: 960px){
+        font-size: 18px;
     }
-
-    @media screen and (max-width: $medium) {
+    @media screen and (max-width: 640px){
         font-size: 16px;
     }
-
-    @media screen and (max-width: $small) {
+    @media screen and (max-width: 320px){
         font-size: 14px;
 
         &.small {
